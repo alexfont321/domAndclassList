@@ -15,14 +15,16 @@
 
 
 
-const articleHeaders = document.querySelector(".article-header");
+const articleHeaders = document.querySelectorAll(".article-header");
 
 console.log(articleHeaders);
 
 
-const readFile = articleHeaders.classList;
 
-readFile.add("things");
+
+articleHeaders.classList = "article-header important";
+
+// readFile.add("things");
 
 
 // articleHeaders.classList = "article-header important";
